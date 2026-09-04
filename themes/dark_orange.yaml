@@ -1,0 +1,271 @@
+Dark Orange:
+  # ===========================================================================
+  # Dark Orange - Modern Home Assistant Theme
+  # Restoring the exact original Orange Dark gray tones (#282A2F & #303236) from JuanMTech's Theme
+  # Completely overhauled with high-contrast text and full modern HA / M3 tokens
+  # ===========================================================================
+
+  modes:
+    dark:
+      # --- Original Orange Dark Base Interface Colors ---
+      primary-color: "#DF6040"
+      light-primary-color: "#FF7A59"
+      accent-color: "#DF6040"
+      primary-background-color: "#282A2F"
+      secondary-background-color: "#303236"
+      divider-color: "#282A2F"
+      clear-background-color: "#282A2F"
+
+      # --- RGB Channels (Crucial for modern cards, opacity and Mushroom) ---
+      rgb-primary-color: 223, 96, 64
+      rgb-accent-color: 223, 96, 64
+      rgb-primary-text-color: 255, 255, 255
+      rgb-secondary-text-color: 197, 201, 208
+      rgb-text-primary-color: 255, 255, 255
+      rgb-card-background-color: 48, 50, 54
+      rgb-primary-background-color: 40, 42, 47
+      rgb-secondary-background-color: 48, 50, 54
+
+      # --- High Contrast Typography (Fixes unreadable gray-on-gray) ---
+      primary-text-color: "#FFFFFF"
+      secondary-text-color: "#C5C9D0"
+      text-primary-color: "#FFFFFF"
+      disabled-text-color: "rgba(255, 255, 255, 0.45)"
+      text-light-primary-color: "#FFFFFF"
+      link-text-color: "#FF7A59"
+
+      # --- App Header & Navigation Bar (Matches Original #303236 / #282A2F) ---
+      app-header-background-color: "#303236"
+      header-background-color: "#303236"
+      app-header-text-color: "#FFFFFF"
+      app-header-selection-bar-color: "#DF6040"
+      app-header-edit-background-color: "#303236"
+      app-header-edit-text-color: "#FFFFFF"
+      navigation-bar-background-color: "#303236"
+      bottom-nav-bar-background-color: "#303236"
+
+      # --- Sidebar ---
+      sidebar-background-color: "#282A2F"
+      sidebar-text-color: "#C5C9D0"
+      sidebar-icon-color: "#C5C9D0"
+      sidebar-selected-background-color: "rgba(223, 96, 64, 0.16)"
+      sidebar-selected-text-color: "#DF6040"
+      sidebar-selected-icon-color: "#DF6040"
+
+      # --- Cards & Surfaces (Original #303236 Gray) ---
+      card-background-color: "#303236"
+      ha-card-background: "#303236"
+      ha-card-border-radius: "10px"
+      ha-card-border-width: "0px"
+      ha-card-border-color: "rgba(255, 255, 255, 0.05)"
+      ha-card-box-shadow: "none"
+      paper-card-background-color: "#303236"
+      material-background-color: "#303236"
+      material-secondary-background-color: "#282A2F"
+
+      # --- Dialogs, Menus & Popups (Fixes black text & illegible popups) ---
+      dialog-background-color: "#303236"
+      dialog-surface-margin: "0px"
+      paper-dialog-background-color: "#303236"
+      paper-dialog-color: "#FFFFFF"
+      paper-listbox-background-color: "#282A2F"
+      paper-listbox-color: "#FFFFFF"
+      paper-item-icon-color: "#C5C9D0"
+      paper-item-icon-active-color: "#DF6040"
+      paper-item-icon_-_color: "#C5C9D0"
+      paper-item-selected_-_background-color: "rgba(223, 96, 64, 0.16)"
+      paper-tabs-selection-bar-color: "#DF6040"
+
+      # --- Form Inputs & Dropdowns ---
+      input-fill-color: "#202124"
+      input-dropdown-icon-color: "#DF6040"
+      input-ink-color: "#FFFFFF"
+      input-label-ink-color: "#C5C9D0"
+      input-disabled-fill-color: "rgba(255, 255, 255, 0.04)"
+      input-disabled-ink-color: "rgba(255, 255, 255, 0.38)"
+      input-idle-line-color: "rgba(255, 255, 255, 0.15)"
+      input-hover-line-color: "rgba(255, 255, 255, 0.3)"
+
+      # --- MDC / Material Web Components (Fixes black text bugs) ---
+      mdc-theme-primary: "#DF6040"
+      mdc-theme-secondary: "#DF6040"
+      mdc-theme-surface: "#303236"
+      mdc-theme-background: "#282A2F"
+      mdc-theme-on-primary: "#FFFFFF"
+      mdc-theme-on-secondary: "#FFFFFF"
+      mdc-theme-on-surface: "#FFFFFF"
+      mdc-theme-text-primary-on-background: "#FFFFFF"
+      mdc-theme-text-secondary-on-background: "#C5C9D0"
+      mdc-theme-text-icon-on-background: "#C5C9D0"
+      mdc-theme-text-primary-on-light: "#FFFFFF"
+      mdc-theme-text-secondary-on-light: "#C5C9D0"
+      mdc-dialog-surface-fill-color: "#303236"
+      mdc-dialog-surface-ink-color: "#FFFFFF"
+      mdc-select-fill-color: "#202124"
+      mdc-select-ink-color: "#FFFFFF"
+      mdc-select-label-ink-color: "#C5C9D0"
+      mdc-select-dropdown-icon-color: "#DF6040"
+      mdc-text-field-fill-color: "#202124"
+      mdc-text-field-ink-color: "#FFFFFF"
+      mdc-text-field-label-ink-color: "#C5C9D0"
+      mdc-checkbox-checked-color: "#DF6040"
+      mdc-checkbox-unchecked-color: "#C5C9D0"
+      mdc-radio-checked-color: "#DF6040"
+      mdc-radio-unchecked-color: "#C5C9D0"
+      mdc-button-outline-color: "#DF6040"
+
+      # --- MD3 (Material Design 3) System Colors (Restores original nav bar gray) ---
+      md-sys-color-surface: "#303236"
+      md-sys-color-surface-container: "#303236"
+      md-sys-color-surface-container-low: "#282A2F"
+      md-sys-color-surface-container-high: "#383B40"
+      md-sys-color-surface-container-highest: "#303236"
+      md-sys-color-on-surface: "#FFFFFF"
+      md-sys-color-on-surface-variant: "#C5C9D0"
+      md-sys-color-primary: "#DF6040"
+      md-sys-color-on-primary: "#FFFFFF"
+      md-sys-color-primary-container: "rgba(223, 96, 64, 0.22)"
+      md-sys-color-on-primary-container: "#FFFFFF"
+      md-sys-color-outline: "rgba(255, 255, 255, 0.15)"
+      md-sys-color-outline-variant: "rgba(255, 255, 255, 0.08)"
+
+      # CSS Custom Property Aliases for MD3
+      --md-sys-color-surface: "#303236"
+      --md-sys-color-surface-container: "#303236"
+      --md-sys-color-surface-container-low: "#282A2F"
+      --md-sys-color-surface-container-high: "#383B40"
+      --md-sys-color-surface-container-highest: "#303236"
+      --md-sys-color-on-surface: "#FFFFFF"
+      --md-sys-color-on-surface-variant: "#C5C9D0"
+      --md-sys-color-primary: "#DF6040"
+      --md-sys-color-on-primary: "#FFFFFF"
+      --md-sys-color-primary-container: "rgba(223, 96, 64, 0.22)"
+      --md-sys-color-on-primary-container: "#FFFFFF"
+
+      # MD3 Navigation Bar & Tabs
+      md-navigation-bar-container-color: "#303236"
+      md-navigation-bar-icon-color: "#C5C9D0"
+      md-navigation-bar-label-text-color: "#C5C9D0"
+      md-navigation-bar-active-icon-color: "#DF6040"
+      md-navigation-bar-active-label-text-color: "#DF6040"
+      md-navigation-bar-active-indicator-color: "rgba(223, 96, 64, 0.22)"
+      --md-navigation-bar-container-color: "#303236"
+
+      # MD3 List items & Navigation rows
+      md-list-item-label-text-color: "#FFFFFF"
+      md-list-item-supporting-text-color: "#C5C9D0"
+      md-list-item-active-indicator-color: "rgba(223, 96, 64, 0.22)"
+      --md-list-item-label-text-color: "#FFFFFF"
+      --md-list-item-supporting-text-color: "#C5C9D0"
+      --md-list-item-active-indicator-color: "rgba(223, 96, 64, 0.22)"
+
+      # --- Modern Semantic HA Color Tokens ---
+      ha-color-text-primary: "#FFFFFF"
+      ha-color-text-secondary: "#C5C9D0"
+      ha-color-text-link: "#FF7A59"
+      ha-color-text-disabled: "rgba(255, 255, 255, 0.45)"
+      ha-color-on-primary-loud: "#FFFFFF"
+      ha-color-on-primary-normal: "#FFFFFF"
+      ha-color-on-neutral-loud: "#FFFFFF"
+      ha-color-on-neutral-normal: "#FFFFFF"
+      wa-color-brand-on-loud: "#FFFFFF"
+      wa-color-on-neutral-loud: "#FFFFFF"
+      wa-color-on-quiet: "#C5C9D0"
+      wa-color-brand-fill-loud: "#DF6040"
+      wa-color-brand-fill-normal: "rgba(223, 96, 64, 0.22)"
+      wa-color-brand-fill-quiet: "rgba(223, 96, 64, 0.12)"
+      wa-color-neutral-fill-loud: "#404348"
+      wa-color-neutral-fill-normal: "#303236"
+      wa-color-neutral-fill-quiet: "#282A2F"
+
+      # --- States & Badges ---
+      state-icon-color: "#D7D1D0"
+      state-icon-active-color: "#DF6040"
+      state-icon-unavailable-color: "rgba(255, 255, 255, 0.45)"
+      state-active-color: "#DF6040"
+      state-inactive-color: "#D7D1D0"
+      state-unavailable-color: "rgba(255, 255, 255, 0.45)"
+      state-climate-heat-color: "#DF6040"
+      state-climate-cool-color: "#5F9BEA"
+      state-climate-auto-color: "#80C884"
+      state-cover-color: "#DF6040"
+      state-light-color: "#DF6040"
+
+      # --- Badges / Chips ---
+      label-badge-background-color: "#202124"
+      label-badge-text-color: "#FFFFFF"
+      label-badge-red: "#D06568"
+      label-badge-green: "#80C884"
+      label-badge-blue: "#5F9BEA"
+      label-badge-yellow: "#DFC271"
+      label-badge-gray: "#5F6267"
+      chip-background-color: "#202124"
+      chip-color: "#FFFFFF"
+      hacs-chip-background-color: "#DF6040"
+
+      # --- Switches & Controls ---
+      switch-checked-button-color: "#DF6040"
+      switch-checked-track-color: "#c44221"
+      switch-unchecked-button-color: "#D7D1D0"
+      switch-unchecked-track-color: "#5F6267"
+      paper-toggle-button-checked-button-color: "#DF6040"
+      paper-toggle-button-checked-bar-color: "#c44221"
+      paper-toggle-button-unchecked-button-color: "#D7D1D0"
+      paper-toggle-button-unchecked-bar-color: "#5F6267"
+
+      # --- Sliders ---
+      slider-color: "#DF6040"
+      slider-bar-color: "rgba(223, 96, 64, 0.35)"
+      slider-secondary-color: "rgba(223, 96, 64, 0.6)"
+      paper-slider-knob-color: "#DF6040"
+      paper-slider-knob-start-color: "#DF6040"
+      paper-slider-pin-color: "#DF6040"
+      paper-slider-active-color: "#DF6040"
+      paper-slider-secondary-color: "rgba(223, 96, 64, 0.6)"
+
+      # --- Tables & Data (Settings & Entity Lists) ---
+      data-table-background-color: "#282A2F"
+      table-row-background-color: "#303236"
+      table-row-alternative-background-color: "#282A2F"
+      markdown-code-background-color: "#202124"
+      code-editor-background-color: "#202124"
+
+      # --- Energy Dashboard ---
+      energy-grid-consumption-color: "#DF6040"
+      energy-grid-return-color: "#80C884"
+      energy-solar-color: "#DFC271"
+      energy-battery-in-color: "#5F9BEA"
+      energy-battery-out-color: "#FF8A65"
+      energy-gas-color: "#BA68C8"
+      energy-water-color: "#4DD0E1"
+
+    light:
+      # --- Fallback Light Mode ---
+      primary-color: "#DF6040"
+      light-primary-color: "#EB6948"
+      accent-color: "#DF6040"
+      primary-background-color: "#F4F5F7"
+      secondary-background-color: "#FFFFFF"
+      divider-color: "rgba(0, 0, 0, 0.1)"
+      primary-text-color: "#1A1B1E"
+      secondary-text-color: "#5F6368"
+      text-primary-color: "#FFFFFF"
+      disabled-text-color: "rgba(0, 0, 0, 0.38)"
+      card-background-color: "#FFFFFF"
+      ha-card-background: "#FFFFFF"
+      ha-card-border-radius: "10px"
+      ha-card-border-width: "0px"
+      ha-card-box-shadow: "none"
+      app-header-background-color: "#FFFFFF"
+      app-header-text-color: "#1A1B1E"
+      app-header-selection-bar-color: "#DF6040"
+      sidebar-background-color: "#FFFFFF"
+      sidebar-text-color: "#5F6368"
+      sidebar-selected-background-color: "rgba(223, 96, 64, 0.1)"
+      sidebar-selected-text-color: "#DF6040"
+      sidebar-selected-icon-color: "#DF6040"
+      state-icon-active-color: "#DF6040"
+      switch-checked-button-color: "#DF6040"
+      switch-checked-track-color: "rgba(223, 96, 64, 0.45)"
+      slider-color: "#DF6040"
+      slider-bar-color: "rgba(223, 96, 64, 0.35)"
