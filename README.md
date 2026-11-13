@@ -1,7 +1,7 @@
 # 🍊 Dark Orange Theme for Home Assistant
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/default)
-[![GitHub Release](https://img.shields.io/github/v/release/sajiko5821/Dark-Orange?style=for-the-badge&color=DF6040)](https://github.com/sajiko5821/Dark-Orange/releases)
+[![GitHub Release](https://img.shields.io/github/v/release/sajiko5821/Dark-Orange?style=for-the-badge&color=E06242)](https://github.com/sajiko5821/Dark-Orange/releases)
 [![HACS Validation](https://img.shields.io/github/actions/workflow/status/sajiko5821/Dark-Orange/validate.yml?branch=main&label=HACS%20Validation&style=for-the-badge)](https://github.com/sajiko5821/Dark-Orange/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
@@ -11,8 +11,8 @@ A clean, modern, and high-contrast dark theme with vibrant warm orange accents f
 
 ## ✨ Features
 
-- 🎨 **Original Tones**: Built on deep charcoal and soft gray surfaces (`#282A2F` & `#303236`) restored from [JuanMTech's orange_dark](https://github.com/JuanMTech/orange_dark) theme, paired with a signature warm orange accent (`#DF6040`).
-- 👁️ **High Contrast & Legibility**: Pure crisp text (`#FFFFFF` and `#C5C9D0`) to eliminate unreadable gray-on-gray elements in dialogs, tables, and settings.
+- 🎨 **Balanced Dark Tones**: Built on deep charcoal and soft gray surfaces (`#26282D` & `#2E3035`), paired with a signature warm orange accent (`#E06242`).
+- 👁️ **High Contrast & Legibility**: Pure crisp text (`#FFFFFF` and `#C2C7D0`) to eliminate unreadable gray-on-gray elements in dialogs, tables, and settings.
 - 🍄 **Mushroom & Lovelace Ready**: Full RGB channels defined for seamless translucency and opacity effects across custom cards.
 - 📐 **Material 3 / Modern HA**: Extensive coverage of MDC and M3 color tokens, preventing stubborn black-text-on-dark-background glitches.
 - 🌗 **Light Mode Fallback**: Includes a clean, complementary light variant when switching to system light mode.
@@ -69,12 +69,12 @@ You don't need to restart Home Assistant! Simply reload themes:
 
 | Token | Color | Hex | Role |
 | :--- | :--- | :--- | :--- |
-| Primary Accent | <img src="https://via.placeholder.com/15/DF6040/000000?text=+" width="15" height="15" /> `#DF6040` | `#DF6040` | Buttons, Active Icons, Toggles, Sliders |
-| Light Accent | <img src="https://via.placeholder.com/15/FF7A59/000000?text=+" width="15" height="15" /> `#FF7A59` | `#FF7A59` | Hover states, links, highlights |
-| Background | <img src="https://via.placeholder.com/15/282A2F/000000?text=+" width="15" height="15" /> `#282A2F` | `#282A2F` | Main app background, sidebar |
-| Card Surface | <img src="https://via.placeholder.com/15/303236/000000?text=+" width="15" height="15" /> `#303236` | `#303236` | Cards, popups, app header |
-| Text Primary | <img src="https://via.placeholder.com/15/FFFFFF/000000?text=+" width="15" height="15" /> `#FFFFFF` | `#FFFFFF` | High-contrast readable headings & text |
-| Text Secondary | <img src="https://via.placeholder.com/15/C5C9D0/000000?text=+" width="15" height="15" /> `#C5C9D0` | `#C5C9D0` | Subtitles, disabled states, borders |
+| Primary Accent | <img src="https://placehold.co/15x15/E06242/E06242.png" width="15" height="15" /> `#E06242` | `#E06242` | Buttons, Active Icons, Toggles, Sliders |
+| Light Accent | <img src="https://placehold.co/15x15/FF7D5C/FF7D5C.png" width="15" height="15" /> `#FF7D5C` | `#FF7D5C` | Hover states, links, highlights |
+| Background | <img src="https://placehold.co/15x15/26282D/26282D.png" width="15" height="15" /> `#26282D` | `#26282D` | Main app background, sidebar |
+| Card Surface | <img src="https://placehold.co/15x15/2E3035/2E3035.png" width="15" height="15" /> `#2E3035` | `#2E3035` | Cards, popups, app header |
+| Text Primary | <img src="https://placehold.co/15x15/FFFFFF/FFFFFF.png" width="15" height="15" /> `#FFFFFF` | `#FFFFFF` | High-contrast readable headings & text |
+| Text Secondary | <img src="https://placehold.co/15x15/C2C7D0/C2C7D0.png" width="15" height="15" /> `#C2C7D0` | `#C2C7D0` | Subtitles, disabled states, borders |
 
 ---
 
@@ -84,12 +84,6 @@ If you do not use HACS:
 1. Download `dark_orange.yaml` from this repository.
 2. Place it in your Home Assistant config directory under `themes/dark_orange.yaml`.
 3. Reload themes under **Developer Tools** > **Actions** > `frontend.reload_themes`.
-
----
-
-## 🙏 Credits & Acknowledgments
-
-- The base colors and original gray tones are based on [JuanMTech's orange_dark theme](https://github.com/JuanMTech/orange_dark).
 
 ---
 
