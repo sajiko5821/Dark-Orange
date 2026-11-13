@@ -1,4 +1,4 @@
-# 🍊 Dark Orange Theme for Home Assistant
+# Dark Orange Theme for Home Assistant
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/default)
 [![GitHub Release](https://img.shields.io/github/v/release/sajiko5821/Dark-Orange?style=for-the-badge&color=E06242)](https://github.com/sajiko5821/Dark-Orange/releases)
@@ -9,17 +9,17 @@ A clean, modern, and high-contrast dark theme with vibrant warm orange accents f
 
 ---
 
-## ✨ Features
+## Features
 
-- 🎨 **Balanced Dark Tones**: Built on deep charcoal and soft gray surfaces (`#26282D` & `#2E3035`), paired with a signature warm orange accent (`#E06242`).
-- 👁️ **High Contrast & Legibility**: Pure crisp text (`#FFFFFF` and `#C2C7D0`) to eliminate unreadable gray-on-gray elements in dialogs, tables, and settings.
-- 🍄 **Mushroom & Lovelace Ready**: Full RGB channels defined for seamless translucency and opacity effects across custom cards.
-- 📐 **Material 3 / Modern HA**: Extensive coverage of MDC and M3 color tokens, preventing stubborn black-text-on-dark-background glitches.
-- 🌗 **Light Mode Fallback**: Includes a clean, complementary light variant when switching to system light mode.
+-  **Balanced Dark Tones**: Built on deep charcoal and soft gray surfaces (`#26282D` & `#2E3035`), paired with a signature warm orange accent (`#E06242`).
+-  **High Contrast & Legibility**: Pure crisp text (`#FFFFFF` and `#C2C7D0`) to eliminate unreadable gray-on-gray elements in dialogs, tables, and settings.
+-  **Mushroom & Lovelace Ready**: Full RGB channels defined for seamless translucency and opacity effects across custom cards.
+-  **Material 3 / Modern HA**: Extensive coverage of MDC and M3 color tokens, preventing stubborn black-text-on-dark-background glitches.
+-  **Light Mode Fallback**: Includes a clean, complementary light variant when switching to system light mode.
 
 ---
 
-## 📦 Installation via HACS (Recommended)
+## Installation via HACS (Recommended)
 
 ### 1-Click Install
 Click the badge below to directly open this repository in your Home Assistant HACS:
@@ -40,7 +40,7 @@ Click the badge below to directly open this repository in your Home Assistant HA
 
 ---
 
-## ⚙️ Setup & Activation
+## Setup & Activation
 
 ### 1. Enable Themes in Home Assistant
 Ensure your `configuration.yaml` is set up to load themes from the `themes/` folder:
@@ -65,7 +65,7 @@ You don't need to restart Home Assistant! Simply reload themes:
 
 ---
 
-## 🎨 Color Palette
+## Color Palette
 
 | Token | Color | Hex | Role |
 | :--- | :--- | :--- | :--- |
@@ -78,7 +78,7 @@ You don't need to restart Home Assistant! Simply reload themes:
 
 ---
 
-## 🛠️ Manual Installation (Without HACS)
+## Manual Installation (Without HACS)
 
 If you do not use HACS:
 1. Download `dark_orange.yaml` from this repository.
@@ -87,6 +87,6 @@ If you do not use HACS:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
