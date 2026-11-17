@@ -15,7 +15,6 @@ A clean, modern, and high-contrast dark theme with vibrant warm orange accents f
 -  **High Contrast & Legibility**: Pure crisp text (`#FFFFFF` and `#C2C7D0`) to eliminate unreadable gray-on-gray elements in dialogs, tables, and settings.
 -  **Mushroom & Lovelace Ready**: Full RGB channels defined for seamless translucency and opacity effects across custom cards.
 -  **Material 3 / Modern HA**: Extensive coverage of MDC and M3 color tokens, preventing stubborn black-text-on-dark-background glitches.
--  **Light Mode Fallback**: Includes a clean, complementary light variant when switching to system light mode.
 
 ---
 
